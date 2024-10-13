@@ -1,4 +1,4 @@
-//here i wiil build an api that gives me the superhero that i typed
+//here i wiil build an api that gives me the superhero that i typed,
 const typeyourhero = (name) => {
     const hero = document.getElementById('hero');
     fetch(`https://superheroapi.com/api.php/8e580624a42f2e1a8e99cbb09d744eee/search/${name}`)
